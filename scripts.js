@@ -10,7 +10,7 @@ function loadFileInto(recipeName, listName, whereTo) {
 	// 2. define the fromFile variable with the passed recipe name and list
 	fromFile = "recipes.php?recipeName=" + recipeName + "&recipeList=" + listName;
 	
-	console.log("From URL: " + fromFile);
+	console.log("From URL: " + fromFile); // output the URL result to the browser's devtools console
 
 	// 3. defines the GET/POST method, the source, and the async value of the AJAX object
 	ajax.open("GET", fromFile, true);
